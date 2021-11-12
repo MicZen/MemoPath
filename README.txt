@@ -8,8 +8,6 @@
 #                                                          #
 ############################################################       
 
-Developer: MZ
-
 MEMOPATH is a terminal based game written in Python 3.
 The game is between two opponents that have to cross a randomly generated squared field and the first player that reaches the the other side wins.
 Every turn a player can move across the field toward the other side, until she falls into a trap and has to start over.

@@ -9,7 +9,7 @@
 ############################################################ 
 
 """
-This is the first MZ's terminal based python game developed as a custom project for the Codecademy course in Computer Science.
+The program is a terminal based python game developed as a custom project for the Codecademy course in Computer Science.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
