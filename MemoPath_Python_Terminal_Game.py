@@ -40,10 +40,10 @@ class Player:
         selected_direction = "Yet to be selected"
         if player == 1:
             while selected_direction not in ["Up", "Down", "Right", "U", "D", "R"]:
-                selected_direction = input(self.name + " move toward the next cell by writing Up, Down or Right: ").lower().title()
+                selected_direction = input(self.name + " move toward the next cell by writing Up or U, Down or D or Right or R: ").lower().title()
         if player == 2:
             while selected_direction not in ["Up", "Down", "Left", "U", "D", "L"]:
-                selected_direction = input(self.name + " move toward the next cell by writing Up, Down or Left: ").lower().title()
+                selected_direction = input(self.name + " move toward the next cell by writing Up or U, Down or D or Left or L: ").lower().title()
         return selected_direction
 
 class Field:
@@ -183,7 +183,7 @@ class MemoPath:
                         next_player = MemoPath.get_next_player(next_player)
             else:
                 selected_direction = players[next_player].move(next_player)
-                if selected_direction == "Up" or selected_direction == "U": selected_cell = selected_cell - self.difficulty + 1
+                if selected_direction == "Up" or selected_direction == "U": selected_cell = selected_cell - self.difficulty - 1
                 if selected_direction == "Down" or selected_direction == "D": selected_cell = selected_cell + self.difficulty + 1
                 if selected_direction == "Left" or selected_direction == "L": selected_cell = selected_cell - 1
                 if selected_direction == "Right" or selected_direction == "R": selected_cell = selected_cell + 1
