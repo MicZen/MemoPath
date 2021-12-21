@@ -22,6 +22,6 @@ The following steps describe a game round:
 3) The player can move by one cell, by selecting a direction.
 4) If in the new location there is a trap the round ends, otherwise the player can continue moving in the field.
 Steps 3 and 4 are repeated until the player falls in a trap or reaches the other side of the field and wins.
-Every time a player falls in a trap the round ends and has to start over, trying to remember the path that as been discovered so far. 
+Every time a player falls in a trap the round ends and has to start over, trying to remember the path that has been discovered so far. 
         
 The difficulty of the game depends on the field size: Easy - 6x6 cells; Medium - 12x12 cells; Hard - 18x18 cells; Insane - 24x24 cells.
